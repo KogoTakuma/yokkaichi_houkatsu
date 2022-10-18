@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>イージスシステム(仮)</title>
+    <style>
+        body {
+  text-align: left;
+}
+.float_right{
+float: right;
+}
+
+.right_place{
+
+    margin-right: 0;
+ margin-left: auto;
+ width: 30%;
+}
+
+.container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div.form-check{
+  margin-bottom: 12px;
+}
+/* 横並び */
+
+.flex {
+  display: flex; /*横並び*/
+}
+.flex .image {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flex .text {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+.squere {
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    background-color: #fff;
+  }
+
+.image60{
+    width: 60%;
+    height: auto;
+}
+.image75{
+    width: 75%;
+    height: auto;
+}
+.image30{
+    width: 30%;
+    height: auto;
+}
+.image40{
+    width: 40%;
+    height: auto;
+}
+
+
+/* 大きく */
+input[type="checkbox"]{
+  transform: scale(2);
+  margin-top: 18px;
+}
+/* 大きく */
+input[type="checkbox2"]{
+  transform: scale(2);
+  margin-top: 18px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+     <div class="row">
+        
+        <div class="col-xs-8">
+            <h1> 
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checktitle" checked>
+                <label class="form-check-label" for="checkB"> 〇〇幼稚園 雨漏り修繕</label>
+            </div>
+            <hr>
+        </h1>
+            <div style="width: 1000px;"></div>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="heading1">
+                        <h1 class="mb-0">
+                            <table cellpadding="5" border="0">
+                                <tr>
+                                  <td>
+                                      <div class="form-group">
+                                          <h1> 
+                                          <div class="form-check">
+                                              <input class="form-check-input" type="checkbox" id="checkA" checked>
+                                              <label class="form-check-label" for="checkB"> 計画書作成</label>
+                                          </div>
+                                      </h1>
+                                      </form>
+  
+                                  </td>
+                                  <td>
+                                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                             
+                                      <img src="images/arrow2.png" class="img-fluid"></td>
+  
+                              </button>
+                                </tr>
+                                </table>
+  
+                        </h1>
+                    </div>
+            
+                    <div id="collapse1" class="collapse" aria-labelledby="heading1">
+                        <div class="card-body">
+                            <h2>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="check1a" checked>
+                                    <label class="form-check-label" for="check1a">計画案作成</label>
+                                </div>
+                                <hr>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="check1b">
+                                    <label class="form-check-label" for="check1b">業者選定</label>
+                                </div>
+                                <hr>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="check1c">
+                                    <label class="form-check-label" for="check1c">承認</label>
+                                </div>
+                                </div>
+                            </form>
+                        </h2>
+
+
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <div class="card-header" id="heading2">
+                        <h1 class="mb-0">
+
+                            <table cellpadding="5" border="0">
+                              <tr>
+                                <td>
+                                    <div class="form-group">
+                                        <h1> 
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="checkB" checked>
+                                            <label class="form-check-label" for="checkB"> 実施状況</label>
+                                        </div>
+                                    </h1>
+                                    </form>
+
+                                </td>
+                                <td>
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                           
+                                    <img src="images/arrow2.png" class="img-fluid"></td>
+
+                            </button>
+                              </tr>
+                              </table>
+
+                                
+
+                               
+                        </h1>
+                    </div>
+            
+                    <div id="collapse2" class="collapse show" aria-labelledby="heading2">
+                        <div class="card-body">
+                            <h2>
+                            <div class="form-group">
+                                <div class="squere">
+                                <div class="form-check">
+                                    <label class="form-check-label" for="check2a"> </label>
+                                    <input class="form-check-input" type="checkbox" id="check2a" checked>
+                                    <label class="form-check-label" for="check2a">作業開始</label>
+                                </div>
+                                <hr>
+                                <p class="image40">
+                                <img src="images/strat_message.png" class="img-fluid">
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="squere">
+                                <div class="form-check">
+                                    <label class="form-check-label" for="check2a"> </label>
+                                    <input class="form-check-input" type="checkbox" id="check2b">
+                                    <label class="form-check-label" for="check2b">点検項目</label>
+                                </div>
+                                <hr>
+                                <p class="image40">
+                                <img src="images/tenkenkoumoku.png" class="img-fluid">
+                                </p>
+
+
+                            </div>
+                                <hr>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="check2c">
+                                    <label class="form-check-label" for="check2c">作業終了</label>
+                                </div>
+                                </div>
+                            </form>
+                        </h2>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <div class="card-header" id="heading3">
+                        <h1 class="mb-0">
+                            <table cellpadding="5" border="0">
+                                <tr>
+                                  <td>
+                                      <div class="form-group">
+                                          <h1> 
+                                          <div class="form-check">
+                                              <input class="form-check-input" type="checkbox" id="checkC" checked>
+                                              <label class="form-check-label" for="checkB"> 報告書</label>
+                                          </div>
+                                      </h1>
+                                      </form>
+  
+                                  </td>
+                                  <td>
+                                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                             
+                                      <img src="images/arrow2.png" class="img-fluid"></td>
+  
+                              </button>
+                                </tr>
+                                </table>
+  
+                        </h1>
+                    </div>
+                    <br>
+                    <div id="collapse3" class="collapse" aria-labelledby="heading3">
+                        <div class="card-body">
+                            
+                            <h2>
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="check3a" checked>
+                                        <label class="form-check-label" for="check3a">報告書作成</label>
+                                    </div>
+                                    <hr>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="check3b">
+                                        <label class="form-check-label" for="check3b">承認</label>
+                                    </div>
+                                </form>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     </div>
+    </div>
+    <h1 class="mb-0">
+
+
+
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

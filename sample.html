@@ -1,0 +1,55 @@
+<!DOCTYPE html> <html lang="ja">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <!-- Bootstrap -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+ </head>
+ 
+ <body>
+    <div class="container">
+     <div class="row">
+        
+        <!-- 4列をサイドメニューに割り当て -->
+        <div class="col-xs-4">
+         <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#">ダッシュボード</a></li>
+            <li><a href="#">サーバー１</a></li>
+            <li><a href="#">サーバー２</a></li>
+            <li><a href="#">サーバー３</a></li>
+         </ul>
+        </div>
+        
+        
+        <!-- 残り8列はコンテンツ表示部分として使う -->
+        <div class="col-xs-8">
+         <div class="panel panel-info">
+            <div class="panel-heading">
+             <div class="panel-title">sv-01</div>
+            </div>
+            <div class="panel-body">サーバー１のステータスOK</div>
+         </div>
+         
+         <div class="panel panel-info">
+            <div class="panel-heading">
+             <div class="panel-title">sv-02</div>
+            </div>
+            <div class="panel-body">サーバー２のステータスOK</div>
+         </div>
+         
+         <div class="panel panel-info">
+            <div class="panel-heading">
+             <div class="panel-title">sv-03</div>
+            </div>
+            <div class="panel-body">サーバー３のステータスOK</div>
+         </div>
+        </div>
+     </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ </body>
+</html>
